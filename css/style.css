@@ -485,13 +485,13 @@ font-weight:700;
 /*--//services--*/
 /*--portfolio--*/
 .gallery-section{
-background: url(../images/capetown.jpg) no-repeat 0px 0px;
+background: url(../images/capetown_back.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	text-align: center;
-	min-height:1404px;
+	min-height:1400px;
     padding: 140px 0 0px 0;
 }
 #portfolio p {
@@ -541,7 +541,7 @@ transition: all 0.7s ease;
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   color: #fff;
-  margin-top: 115px;
+  margin-top: 50px;
 }
 .textbox p {
   font-size: 12px !important;
