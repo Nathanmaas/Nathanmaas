@@ -115,6 +115,7 @@ a.boxclose{
 /*--banner--*/
 #natelogo{
   border-radius: 50%;
+  width:20vw;
 }
 .banner{
 	background: url(../images/banner.jpg) no-repeat 0px 0px;
