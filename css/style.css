@@ -62,12 +62,12 @@ margin-top:50px;
 	width:100%;
 	margin:auto;
 	padding:0px;
-	z-index:999999;
+
 	text-align:center;
 	left:0px;
  }
 .box_content_center{
-	background:rgba(0, 0, 0, 0.22);
+	background-color:#6254E0;
 }
 a.boxclose{
 	cursor: pointer;
@@ -147,7 +147,7 @@ text-decoration:none;
 color:#ffffff;
 font-size:16px;
 font-weight:500;
-padding:16px 20px;
+padding:16px 10vw;
 border:2px solid #fff;
 margin-bottom: 10px;
 }
@@ -203,6 +203,9 @@ width:72px;
 height:72px;
 display:block;
 }
+.about ul li a.fb:hover{
+background: url(../images/icons.png) no-repeat 0px -71px;
+}
 .about ul li a.twit{
 background: url(../images/icons.png) no-repeat -99px 0px;
 width:72px;
@@ -248,13 +251,10 @@ display:block;
 .about ul li a.pin:hover{
 background: url(../images/git.png) no-repeat -499px -71px;
 }
-.about ul li a.fb:hover{
-background: url(../images/icons.png) no-repeat 0px -71px;
-}
 /*--//about--*/
 /*--my skill--*/
 .my-skills{
-	background: #1abc9c;
+	background: #6254E0;
 	padding: 60px 0;
 }
 .my-skills h3{
@@ -523,7 +523,8 @@ top:0;
 left:0;
 -webkit-transform: scale(0);
 transform: scale(0);
-background-color:rgba(82, 237, 199, 0.5);
+background-color:#6254E0;
+border: solid #62E1C1;
 }
 .gallery1:hover .textbox {
 -webkit-transform: scale(1);
@@ -531,23 +532,25 @@ transform: scale(1);
 }
 .gallery-grid img{
 width:100%;
+padding:2vw;
 }
 
 .textbox {
 -webkit-transition: all 0.7s ease;
 transition: all 0.7s ease;
+padding-top:20vh;
 }
 .textbox h4 {
   font-family: 'Lato', sans-serif;
-  font-size: 22px;
+  font-size: 40px;
   color: #fff;
-  margin-top: 50px;
+  margin-top: 3vh;
 }
 .textbox p {
-  font-size: 12px !important;
+  font-size: 16px !important;
   color: #fff;
   font-weight:500 !important;
-  margin:6px 0 0 0!important;
+  margin:6px 0 0 0px!important;
 }
 .gallery-grids {
   margin-top: 50px;
@@ -1204,18 +1207,18 @@ background:#eeeeee;
 padding:32px 0 60px 0;
 }
 .resume a{
+  width:50%;
   font-family: 'Lato', sans-serif;
-  color: #2b2b2b;
+  color: #ffffff;
   text-decoration: none;
   font-size: 18px;
   font-weight: 800;
-  background: #60D96E;
-  padding: 16px 30px;
-  border-radius:4px;
-  border-bottom:2px solid #6ECFD9;
+  background: #6254E0;
+  padding: 16px 15vw;
 }
 .resume a:hover{
-color:#fff;
+color:#00D5A5;
+border:2px solid #000;
 }
 .down{
   margin-top: 50px;
@@ -1715,8 +1718,8 @@ margin: 12px 0 0 0;
 	display: none;
 	text-decoration: none;
 	position: fixed;
-	bottom: 0px;
-	right: 2%;
+	bottom: 3vh;
+	right: 4%;
 	overflow: hidden;
 	z-index: 999;
 	width: 32px;
@@ -1778,7 +1781,7 @@ border:none;
 	}
 	.gallery-section {
 	  min-height: 1319px;
-	  padding: 115px 0 0px 0;
+	  padding: 115px 0 50px 0;
 	}
 	.services-back {
 	  min-height: 77px;
@@ -2067,17 +2070,18 @@ border:none;
 	.gallery-section h3 {
 	  font-size: 32px;
 	  }
-	#portfolio p {
-	  font-size: 16px;
-	  }
 	.gallery-grids {
 	  margin-top: 40px;
 	}
-	.textbox h4 {
-	  margin-top: 89px;
-	}
+   .textbox {
+    padding:0;
+  }
+  #portfolio p {
+    line-height: 1em;
+  }
 	.button {
 	  padding: 7px;
+    margin-bottom:10px;
 	  }
 	.button a {
 	  font-size: 16px;
@@ -2454,18 +2458,12 @@ border:none;
 	.gallery-section h3 {
 	  font-size: 30px;
 	}
-	#portfolio p {
-	  font-size: 14px;
-	}
 	.gallery-grid {
 	  float: left;
 	  width: 33.3%;
 	}
 	.gallery-section {
 	  min-height: 893px;
-	}
-	.textbox h4 {
-	  margin-top: 55px;
 	}
 	.process h3 {
 	  font-size: 30px;
@@ -2613,7 +2611,7 @@ border:none;
 	}
 	.resume a {
 	  font-size: 14px;
-	  padding: 13px 18px;
+	  padding: 13px 35vw;
 	}
 	.footer p {
 	  font-size: 14px;
@@ -2655,7 +2653,7 @@ border:none;
 	  font-size: 35px;
 	}
 	.banner-right a {
-	  padding: 9px 15px;
+	  padding: 9px 18vw;
 	}
 	.banner-info {
 	  margin: 60px auto 0 auto;
@@ -2927,7 +2925,7 @@ border:none;
 	  margin: 10px 0 28px 0;
 	}
 	.banner {
-	  min-height: 352px;
+	  min-height: 400px;
 	}
 	.about h3 {
 	  letter-spacing: 11px;
@@ -3014,14 +3012,14 @@ border:none;
 	  font-size: 28px;
 	}
 	.skills-grid {
-	  width: 50% !important;
+	  width: 100% !important;
 	  float: left;
 	}
 	.skills-grid p {
 	  font-size: 13px;
 	}
 	.skills-grid:nth-child(1), .skills-grid:nth-child(2), .skills-grid:nth-child(3), .skills-grid:nth-child(4) {
-	  margin-bottom: 30px;
+	  margin-bottom: 10px;
 	}
 	.my-skill-back {
 	  min-height: 27px;
@@ -3085,19 +3083,16 @@ border:none;
 	.gallery-section {
 	  padding: 54px 0 0px 0;
 	}
-	#portfolio p {
-	  font-size: 13px;
-	}
 	.gallery-grid {
 	  float: left;
 	  width: 50%;
 	}
 	.gallery-section {
-	  min-height: 1073px;
+	  min-height: 700px;
 	}
 	.textbox h4 {
-	  font-size: 16px;
-	  }
+	  font-size: 20px;
+	}
 	.button a {
 	  font-size: 13px;
 	}
@@ -3185,7 +3180,7 @@ border:none;
 	  width: 54% !important;
 	}
 	.contact-right form input[type="submit"] {
-	  width: 55%;
+	  width: 100%;
 	  background: url(../images/mess.png) no-repeat 14px 11px;
 	}
 	.footer-top {
