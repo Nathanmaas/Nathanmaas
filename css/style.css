@@ -68,22 +68,26 @@ margin-top:50px;
  }
 .box_content_center{
 	background-color:#6254E0;
+  opacity:.9;
+
 }
 a.boxclose{
 	cursor: pointer;
 	text-align: center;
 	display: block;
 	position: absolute;
-	top: 19px;
-	right: 290px;
+	top: 20px;
+	right: 440px;
  }
  #activator {
 }
 .menu_box_list{
 	display: inline-block;
 	padding:30px 0;
+  height:18vh;
 }
 .menu_box_list ul li {
+  padding-top:4vh;
 	display:inline-block;
 	  margin: 0 10px;
 }
@@ -99,17 +103,21 @@ a.boxclose{
 	font-weight: 600;
 }
 .menu_box_list li a:hover{
-	color:#000000;
-	text-decoration: none;
+  font-weight:800;
+  font-size:18px;
+  border-bottom: solid 4px white;
+
 }
 .menu_box_list li a > i > img{
 	vertical-align:middle;
 }
 .boxclose span{
+  padding-top:4vh;
 	width:58px;
 	height:73px;
 	display:inline-block;
-	background: url(../images/into.png) no-repeat 0px 0px;
+  color:white;
+  font-size:24px;
 }
 /*--/header--*/
 /*--banner--*/
@@ -151,9 +159,16 @@ font-weight:500;
 padding:16px 10vw;
 border:2px solid #fff;
 margin-bottom: 10px;
+transition: background .7s linear, border-radius 1s ease-in 1s;
 }
 .banner-right a:hover{
-border:2px solid #000;
+ border:1px solid #000;
+ background-color:#6254E0;
+ color:white;
+ opacity:.7;
+ font-size:16px;
+ font-weight:800;
+
 }
 .banner-left{
 float:left;
@@ -184,10 +199,9 @@ letter-spacing: 18px;
 }
 .about p{
 margin:45px 0 0 0;
-color:#888b90;
-font-size:18px;
 font-family: 'Lato', sans-serif;
 line-height:1.8em;
+font-size: 24px;
 }
 .about ul{
 padding:0;
