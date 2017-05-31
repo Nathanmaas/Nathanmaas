@@ -103,9 +103,9 @@ a.boxclose{
 	font-weight: 600;
 }
 .menu_box_list li a:hover{
-  font-weight:800;
-  font-size:18px;
-  border-bottom: solid 4px white;
+  font-weight:700;
+  font-size:16px;
+  border-bottom: solid 2px white;
 
 }
 .menu_box_list li a > i > img{
@@ -162,10 +162,10 @@ margin-bottom: 10px;
 transition: background .7s linear, border-radius 1s ease-in 1s;
 }
 .banner-right a:hover{
- border:1px solid #000;
+ border:2px solid #fff;
  background-color:#6254E0;
  color:white;
- opacity:.7;
+
  font-size:16px;
  font-weight:800;
 
